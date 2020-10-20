@@ -2,7 +2,10 @@ import React from "react";
 import "./App.css";
 import NavBar from "./sections/navbar/navbar.component";
 import Header from "./sections/header/header.component";
+import WorkHistory from "./sections/workhistory/workhistory.component";
 import Projects from "./sections/projects/projects.component";
+import Contact from "./sections/contact/contact.component";
+import Education from "./sections/education/education.component";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <NavBar />
       <Header />
       <Projects id="projects-section" />
+      <WorkHistory id="workhistory-section" />
+      <Education />
+      <Contact />
     </div>
   );
 }
