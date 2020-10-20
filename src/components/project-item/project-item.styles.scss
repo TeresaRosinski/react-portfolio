@@ -1,0 +1,38 @@
+.projectHeader{
+  text-align: left;
+}
+
+.projects {
+  margin-top: 5%
+}
+
+.projectImage{
+  height:200px;
+  width: 200px;
+  border-radius:50%;
+}
+
+button {
+  background-color: white;
+  color: grey;
+  padding: 10px 10px;
+  border: solid 1px grey;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.more-details{
+  margin-top:5px;
+  text-align: center;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
