@@ -10,12 +10,16 @@ function ProjectItem (props) {
   const ButtonText = showDetails ? "HIDE DETAILS" : "SHOW DETAILS";
 
     return (
+      <div>
     <div className="project-item">
-      <h4><strong>{props.projectName}</strong></h4> <h6> {props.projectLanguage}</h6>
-      <img src={props.projectImageUrl} alt="picture of project" className="projectImage"/> 
-      <br></br>
-    <button onClick={onClick}>{ButtonText}</button>
-      {showDetails ? <ProjectItemDetails githubRepositoryUrl= {props.projectDescription} projectTechnologies= {props.projectTechnologies} /> : null}
+      <img src={props.projectImageUrl} alt="picture of project" className="projectImage"/>
+      <div className="project-description">
+        <h4><strong>{props.projectName}</strong></h4> <h6> {props.projectLanguage}</h6>
+        <br></br>
+        <button onClick={onClick}>{ButtonText}</button>
+      </div>
+    </div>
+    {showDetails ? <ProjectItemDetails githubRepositoryUrl= {props.githubRepositoryUrl} projectTechnologies= {props.projectTechnologies} projectVision={props.projectVision}/> : null}
     </div>
   );
   } 

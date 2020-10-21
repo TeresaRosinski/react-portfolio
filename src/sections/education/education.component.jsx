@@ -5,7 +5,7 @@ import './education.styles.scss';
 
 function Education () {
   return (
-    <div className="workhistory-container" id="workexperience-section">
+    <div className="workhistory-container" id="education-section">
     <div class="row resume">
       <div class="col-4">
         <h2>Education</h2>

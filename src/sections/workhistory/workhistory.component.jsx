@@ -7,7 +7,7 @@ import ProfilePicture from "./example1.jpg";
 function WorkHistory () {
   return (
     <div className="workhistory-container" id="workexperience-section">
-    <div className="container row align-items-center intro quote">
+    <div className="row align-items-center intro quote">
       <div className="col-4 ">
       <img
           src={ProfilePicture}

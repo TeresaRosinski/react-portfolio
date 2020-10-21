@@ -1,30 +1,41 @@
-.projectHeader{
-  text-align: left;
-}
+
 
 .projects {
   margin-top: 5%
 }
 
+.project-item{
+  border: solid 1px #DCDCDC;
+  border-radius:5px;
+}
+
 .projectImage{
   height:200px;
   width: 200px;
-  border: solid 1px grey;
-  border-radius:10%;
+}
+
+.project-description{
+  background-color: #1d3557;
+  padding-top:5%;
+  color: white;
+  text-align:left;
+  padding-left:5%;
+  border-radius:2%;
 }
 
 button {
-  background-color: white;
-  color: grey;
-  padding: 10px 10px;
-  border: solid 1px grey;
-  margin-top: 10px;
-  border-radius: 5%;
+  color: white;
+  border: none;
+  background-color: transparent;
+  padding-bottom:5%;
+  text-align:left;
+}
+button:active{
+  border: none;
 }
 
 button:hover {
-  background-color: grey;
-  color: white;
+  color: black;
 }
 
 .more-details{
