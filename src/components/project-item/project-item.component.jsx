@@ -11,11 +11,11 @@ function ProjectItem (props) {
 
     return (
     <div className="project-item">
-      <h2>{props.projectName} - {props.projectLanguage}</h2>
+      <h4><strong>{props.projectName}</strong></h4> <h6> {props.projectLanguage}</h6>
       <img src={props.projectImageUrl} alt="picture of project" className="projectImage"/> 
       <br></br>
     <button onClick={onClick}>{ButtonText}</button>
-      {showDetails ? <ProjectItemDetails projectDescription="Great" projectTechnologies= {["Javascript", "React", "Firebase", "Sass"]} /> : null}
+      {showDetails ? <ProjectItemDetails githubRepositoryUrl= {props.projectDescription} projectTechnologies= {props.projectTechnologies} /> : null}
     </div>
   );
   } 

@@ -6,11 +6,14 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function Header () {
   return (
     <div>
-      <div className="row">
-        <div className="col-3 text-box">
-          <h1>Welcome</h1>
-          <h2 >Teresa Rosinski</h2>
-          <h2>Software Developer</h2>
+      <div className="row no-gutters header-content">
+        <div className="col-4 text-box">
+          <div className="text">
+          <h1 className="hello">Hello,</h1>
+          <h2>My Name Is</h2> 
+          <h2><strong>Teresa Rosinski</strong></h2>
+          <h2>And I Work As A</h2>
+          <h2><em>Software Developer</em></h2>
           <button> <Link
                 activeClass="active"
                 to="projects-section"
@@ -20,7 +23,8 @@ function Header () {
                 duration={500}
               >SEE MY WORK </Link></button>
         </div>
-        <div className="col-9" >
+        </div>
+        <div className="col-8" >
           <img className="background-image" src={EverestImage} />
           </div>
       </div>

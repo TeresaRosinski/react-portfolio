@@ -7,18 +7,19 @@ import ProfilePicture from "./example1.jpg";
 function WorkHistory () {
   return (
     <div className="workhistory-container" id="workexperience-section">
-    <div className="container row align-items-center intro">
-      <div className="col-8">
-        <h1>
-          Growth Mindset Oriented. <strong>Forward Moving.</strong> Looking to
-          make an <em>impact</em> through technology.
-        </h1>
-      </div>
-      <div className="col-4">
-        <img
+    <div className="container row align-items-center intro quote">
+      <div className="col-4 ">
+      <img
           src={ProfilePicture}
           className="img-fluid profile-picture"
         />
+        
+      </div>
+      <div className="col-8">
+      <h1>
+          Growth Mindset Oriented. <strong>Forward Moving.</strong> Looking to
+          make an <em>impact</em> through technology.
+        </h1>
       </div>
     </div>
     <div class="row resume">

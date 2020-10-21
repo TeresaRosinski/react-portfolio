@@ -9,7 +9,8 @@
 .projectImage{
   height:200px;
   width: 200px;
-  border-radius:50%;
+  border: solid 1px grey;
+  border-radius:10%;
 }
 
 button {
@@ -22,7 +23,7 @@ button {
 }
 
 button:hover {
-  background-color: black;
+  background-color: grey;
   color: white;
 }
 
@@ -35,4 +36,5 @@ ul.no-bullets {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
+  text-align:justify;
 }
