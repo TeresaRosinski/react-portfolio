@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function Header () {
   return (
     <div>
-      <div className="row no-gutters header-content">
+      <div className="container-fluid row no-gutters header-content">
         <div className="col-4 text-box">
           <div className="text">
           <h1 className="hello">Hello,</h1>

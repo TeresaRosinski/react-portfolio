@@ -12,7 +12,7 @@ function ProjectItem (props) {
     return (
       <div>
     <div className="project-item">
-      <img src={props.projectImageUrl} alt="picture of project" className="projectImage"/>
+      <img className="container-fluid" src={props.projectImageUrl} alt="picture of project" className="projectImage"/>
       <div className="project-description">
         <h4><strong>{props.projectName}</strong></h4> <h6> {props.projectLanguage}</h6>
         <br></br>
