@@ -45,6 +45,17 @@ const Navbar = ({ sticky }) => (
           EDUCATION
         </Link>
         </li>
+        <li><Link
+          activeClass='active'
+          to='contact-section'
+          spy
+          smooth
+          offset={-70}
+          duration={500}
+            >
+          CONTACT
+        </Link>
+        </li>
       </ul>
 
     </nav>

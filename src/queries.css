@@ -5,9 +5,6 @@
   header {
    width:100;
   }
-  .row{
-    padding: 0 2%
-  }
   .main-nav li {
     display: inline-block;
     margin-left: 40px;
@@ -16,13 +13,10 @@
 }
 
 
-/*For  Big tablets (Widths smalle than the 1140px row) */
+/*For  Big tablets (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px){
   header {
-   width:100;
-  }
-  .row{
-    padding: 0 2%
+  width:100;
   }
   .main-nav li {
     display: inline-block;
@@ -34,35 +28,31 @@
 
 
 /*For  small tablets to large tablets up to 767-1023 */
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1048px){
   body{font-size: 18px; }
   section{padding: 60px 0;}
-.long-copy {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-#hamburger{display:none;}
-
+  #hamburger{display:none;}
+ 
 }
 
 
 /*For  small phones and tablets up to 481- 767 */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 811px){
   body{font-size: 16px}
   section{padding: 30px 0;}
-  .row,
-  .hero-text-box{
-    padding: 0 4%;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
   }
-  .col{width: 100%}
-  
+  .wrapper div:first-child {
+    order: 1;
+  }
   #hamburger{
     display: block;
     cursor: pointer;
     float:right;
   }
- 
+
   .main-nav{
     text-align: center;
     width: 100%;

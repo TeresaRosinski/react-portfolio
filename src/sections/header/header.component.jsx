@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function Header ({element}) {
   return (
     <div ref={element} >
-      <div className="container-fluid row no-gutters header-content">
+      <div className="wrapper container-fluid row no-gutters header-content">
         <div className="col-4 text-box">
           <div className="text">
           <h1 className="hello">Hello,</h1>
@@ -14,7 +14,7 @@ function Header ({element}) {
           <h2><strong>Teresa Rosinski</strong></h2>
           <h2>And I Work As A</h2>
           <h2><em>Software Developer</em></h2>
-          <button> <Link
+          <button className = "see-work-button"><Link
                 activeClass="active"
                 to="projects-section"
                 spy={true}
