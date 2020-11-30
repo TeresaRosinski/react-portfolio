@@ -3,9 +3,9 @@ import "./header.styles.scss";
 import EverestImage from './everest.jpg';
 import { Link, animateScroll as scroll } from "react-scroll";
 
-function Header () {
+function Header ({element}) {
   return (
-    <div>
+    <div ref={element} >
       <div className="container-fluid row no-gutters header-content">
         <div className="col-4 text-box">
           <div className="text">
