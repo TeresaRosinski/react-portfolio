@@ -2,9 +2,6 @@
 
 /*For  Big tablets (Widths smalle than the 1140px row) */
 @media only screen and (min-width: 1200px){
-  header {
-   width:100;
-  }
   .main-nav li {
     display: inline-block;
     margin-left: 40px;
@@ -15,9 +12,6 @@
 
 /*For  Big tablets (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px){
-  header {
-  width:100;
-  }
   .main-nav li {
     display: inline-block;
     margin-left: 40px;

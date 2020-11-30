@@ -6,8 +6,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function Header ({element}) {
   return (
     <div ref={element} >
-      <div className="wrapper container-fluid row no-gutters header-content">
-        <div className="col-4 text-box">
+      <div className="wrapper header-content">
+        <div className="text-box">
           <div className="text">
           <h1 className="hello">Hello,</h1>
           <h2>My Name Is</h2> 
@@ -22,12 +22,12 @@ function Header ({element}) {
                 offset={-70}
                 duration={500}
               >SEE MY WORK </Link></button>
-        </div>
-        </div>
-        <div className="col-8" >
-          <img className="background-image" src={EverestImage} />
           </div>
-      </div>
+        </div>
+          <div className="everest-image">
+            <img className="background-image" src={EverestImage} />
+          </div>
+        </div>
       </div>
   );
 } 
