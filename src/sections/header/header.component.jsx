@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.styles.scss";
+import "./header.styles.css";
 import EverestImage from './everest.jpg';
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -7,13 +7,13 @@ function Header ({element}) {
   return (
     <div ref={element} >
       <div className="wrapper header-content">
-        <div className="text-box">
-          <div className="text">
-          <h1 className="hello">Hello,</h1>
-          <h2>My Name Is</h2> 
-          <h2><strong>Teresa Rosinski</strong></h2>
-          <h2>And I Work As A</h2>
-          <h2><em>Software Developer</em></h2>
+        <div className="header-text-box">
+          <div className="header-text">
+            <h1 className="hello">Hello,</h1>
+            <h2>My Name Is</h2> 
+            <h2><strong>Teresa Rosinski</strong></h2>
+            <h2>And I Work As A</h2>
+            <h2><em>Software Developer</em></h2>
           <button className = "see-work-button"><Link
                 activeClass="active"
                 to="projects-section"

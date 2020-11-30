@@ -6,25 +6,27 @@
   align-items: stretch;
   align-content: center;
 }
-.text-box{
+.header-text-box{
   text-align: left;
   background-color:#E63946;
   color:#f1faee;
   flex-grow: 1;
 }
-.text{
-  padding-top:30vh;
-  padding-left: 5%;
-  padding-right: 5%;
+.header-text{
+  margin-top:30vh;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .everest-image{
   flex-grow: 3;
+  margin-right:0;
+  overflow: hidden;
 }
 .background-image{
   width:100%;
   height: auto;
-  margin-left:0;
+  overflow: hidden;
 }
 
 .hello{
