@@ -14,14 +14,15 @@ function Header ({element}) {
             <h2><strong>Teresa Rosinski</strong></h2>
             <h2>And I Work As A</h2>
             <h2><em>Software Developer</em></h2>
-          <button className = "see-work-button"><Link
+               <Link
+               className="see-work-button"
                 activeClass="active"
                 to="projects-section"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-              >SEE MY WORK </Link></button>
+              >SEE MY WORK </Link>
           </div>
         </div>
           <div className="everest-image">

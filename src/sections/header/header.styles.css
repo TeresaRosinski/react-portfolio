@@ -34,7 +34,17 @@
 }
 
 .see-work-button{
-  margin-top:10%;
+  margin-top:15%;
   font-size:20px;
   font:bold;
+  border: solid white 2px;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.see-work-button:hover{
+  cursor: pointer;
+  border: solid white 2px;
+  padding: 3%;
+  border-radius: 20px;
 }
