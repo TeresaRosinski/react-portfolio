@@ -1,7 +1,8 @@
 
 
-.projects {
-  margin-top: 5%
+.project-item-container {
+  display:flex;
+  flex-direction: column;
 }
 
 .project-item{
@@ -9,9 +10,10 @@
   border-radius:5px;
 }
 
-.projectImage{
-  height:200px;
-  width: 200px;
+.project-image{
+  height:30vh;
+  width: auto;
+  flex-grow: 1;
 }
 
 .project-description{
@@ -21,6 +23,7 @@
   text-align:left;
   padding-left:5%;
   border-radius:2%;
+  flex-grow: 1;
 }
 
 button {

@@ -12,7 +12,7 @@
 /*For  Big tablets (Widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px){
   .main-nav li {
-    display: block !important;
+    display:inline-block;
   }
   #hamburger{display:none;}
 }
@@ -83,6 +83,22 @@
 
 /*For  small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
-  
+  body{font-size: 16px}
+  #toggle:checked + .main-nav{
+    display: block;
+    margin-top: 0;
+    width: 100%;
+    float:right;
+    padding-bottom: 5px;
+  }
+  #toggle:checked + label{
+    display:none;
+  }
+  #hamburger{
+    display: block;
+    cursor: pointer;
+    float:right;
+  }
+
 
 }

@@ -1,8 +1,17 @@
-.projects{
-  margin-top:5%;
-  margin-left: 5%;
-  margin-right: 5%;
+.projects-section-header{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  color: #1d3557;
 }
-.section-header{
- text-align: left;
+
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.project{
+  margin: 3%;
+  flex-grow: 1;
 }

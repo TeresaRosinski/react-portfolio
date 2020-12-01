@@ -8,17 +8,16 @@ import Ball from "./ball.png";
 
 function Projects () {
   return (
-    
-    <div id="projects-section" className="projects">
-      <h1 className="section-header">Projects</h1>
-      <div className="row projects">
-      <div className="col-4">
-        <ProjectItem projectName="Habi-Sabi" projectLanguage="Javascript/React" projectImageUrl={HabiSabi} githubRepositoryUrl= "https://github.com/TeresaRosinski/HabiSabi.git" projectVision="How can we build habits that actually work for us? The goal of Habi-Sabi is to guide users as the build and experiment with new habits" projectTechnologies= {["Javascript", "React", "Firebase", "Sass"]} />
-      </div>
-      <div className="col-4">
+    <div id="projects-section">
+      <h1 className="projects-section-header">Projects</h1>
+      <div className="projects-container">
+        <div className="project">
+          <ProjectItem projectName="Habi-Sabi" projectLanguage="Javascript/React" projectImageUrl={HabiSabi} githubRepositoryUrl= "https://github.com/TeresaRosinski/HabiSabi.git" projectVision="How can we build habits that actually work for us? The goal of Habi-Sabi is to guide users as the build and experiment with new habits" projectTechnologies= {["Javascript", "React", "Firebase", "Sass"]} />
+        </div>
+        <div className="project">
           <ProjectItem projectName="Resourcey" projectLanguage="C#/.NET" projectImageUrl={Resourcey} githubRepositoryUrl= "https://github.com/TeresaRosinski/Resourcey.git" projectVision="How can we help learners and teachers minimize their time spent researching for great material and maximize their time spent learning? Resourcey creates a hub for learners to collaboratively collect excellent resources for their courses." projectTechnologies= {["Entity Framework", "Identity", "MySQL", ]} />
-      </div>
-      <div className="col-4">
+        </div>
+        <div className="project">
           <ProjectItem projectName="Dream Team" projectLanguage="Javascript" projectImageUrl={Ball} githubRepositoryUrl= "https://github.com/TeresaRosinski/dreamteam.git" projectVision="How can we help basketball fans build their dream teams? DreamTeam works with an API to collect data on basketball players" projectTechnologies= {["BallDontLie Api", "Postman" ]} />
         </div>
       </div>
