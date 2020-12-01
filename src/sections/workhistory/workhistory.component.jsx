@@ -6,27 +6,26 @@ import ProfilePicture from "./example1.jpg";
 
 function WorkHistory () {
   return (
-    <div className="workhistory-container" id="workexperience-section">
-    <div className="row align-items-center intro quote">
-      <div className="col-4 ">
-      <img
-          src={ProfilePicture}
-          className="img-fluid profile-picture"
-        />
-        
+    <div className="work-history-container" id="workexperience-section">
+      <div className="work-history-intro">
+        <div className="work-history-picture-container">
+          <img
+            src={ProfilePicture}
+            className="work-history-picture"
+          />
+        </div>
+        <div className="work-history-quote">
+          <h1>
+            Growth Mindset Oriented. <strong>Forward Moving.</strong> Looking to
+            make an <em>impact</em> through technology.
+          </h1>
+        </div>
       </div>
-      <div className="col-8">
-      <h1>
-          Growth Mindset Oriented. <strong>Forward Moving.</strong> Looking to
-          make an <em>impact</em> through technology.
-        </h1>
-      </div>
-    </div>
-    <div class="row resume">
-      <div class="col-4">
+    <div class="resume-container">
+      <div class="work-experience-header">
         <h2>Work Experience</h2>
       </div>
-      <div class="col-8">
+      <div class="work-experience-examples">
         <h5><bold>Education and Development Intern </bold></h5>
         <h6><em>Centro: Chicago, IL - 01/2020 – 03/2020</em></h6>
         <p>
@@ -63,7 +62,7 @@ function WorkHistory () {
         </p>
       </div>
     </div>
-    </div>
+  </div>
 
   );
 }  export default WorkHistory;

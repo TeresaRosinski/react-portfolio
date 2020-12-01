@@ -1,16 +1,13 @@
 import React, {Component} from "react";
 import './education.styles.scss';
 
-
-
 function Education () {
   return (
-    <div className="workhistory-container" id="education-section">
-    <div class="row resume">
-      <div class="col-4">
+    <div className="education-container" id="education-section">
+      <div class="education-header">
         <h2>Education</h2>
       </div>
-      <div class="col-8">
+      <div class="education-examples">
         <h5><bold>Web and Mobile APP Development Bootcamp</bold></h5>
         <h6><em>Epicodus: Online - 05/2020 – 11/2020</em></h6>
         <h6><strong>Languages/Framworks Practiced:</strong> Javascript, C#/.NET, React</h6>
@@ -30,7 +27,5 @@ function Education () {
         <p><strong>Example Courses:</strong> International Conflict Management, Global History from a Global Perspective, International Management, Accounting, International Economics, Micro Economics</p>
       </div>
     </div>
-    </div>
-
   );
 }  export default Education;
