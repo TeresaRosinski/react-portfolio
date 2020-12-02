@@ -23,7 +23,7 @@ function WorkHistory () {
       </div>
     <div class="resume-container">
       <div class="work-experience-header">
-        <h2>Work Experience</h2>
+        <h1 className="light">WORK EXPERIENCE</h1>
       </div>
       <div class="work-experience-examples">
         <h5><bold>Education and Development Intern </bold></h5>

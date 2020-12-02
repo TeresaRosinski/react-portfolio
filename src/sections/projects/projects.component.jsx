@@ -9,7 +9,10 @@ import Ball from "./ball.png";
 function Projects () {
   return (
     <div id="projects-section">
-      <h1 className="projects-section-header">Projects</h1>
+      <div className="projects-section-header">
+      <h1 className="projects-title">PROJECTS</h1>
+      <p className="projects-paragraph">From May 2020 - October 2020 I attended Epicodus' 6-month Web Development Bootcamp. We built daily projects with other students, and each Friday we built individual projects to be reviewed by our instructors. Additionally, we completed two team-week projects. This is a collection of some of the projects I completed while at Epicodus and since I graduated.</p>
+      </div>
       <div className="projects-container">
         <div className="project">
           <ProjectItem projectName="Habi-Sabi" projectLanguage="Javascript/React" projectImageUrl={HabiSabi} githubRepositoryUrl= "https://github.com/TeresaRosinski/HabiSabi.git" projectVision="How can we build habits that actually work for us? The goal of Habi-Sabi is to guide users as the build and experiment with new habits" projectTechnologies= {["Javascript", "React", "Firebase", "Sass"]} />

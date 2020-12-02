@@ -1,7 +1,18 @@
 .projects-section-header{
-  margin-top: 5%;
+  padding: 5%;
   margin-bottom: 3%;
-  color: #1d3557;
+  background-color: #1d3557;
+  color: white;
+}
+
+.projects-title{
+  margin-bottom: 4%;
+  font-weight: 100;
+}
+
+.projects-paragraph{
+  text-align: justify;
+  font-weight:400;
 }
 
 .projects-container{
