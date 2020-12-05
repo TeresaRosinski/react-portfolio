@@ -8,17 +8,12 @@ function WorkHistory () {
   return (
     <div className="work-history-container" id="workexperience-section">
       <div className="work-history-intro">
-        <div className="work-history-picture-container">
-          <img
-            src={ProfilePicture}
-            className="work-history-picture"
-          />
-        </div>
-        <div className="work-history-quote">
-          <h1>
-            Growth Mindset Oriented. <strong>Forward Moving.</strong> Looking to
-            make an <em>impact</em> through technology.
-          </h1>
+        <div className="work-history-quote-container">
+          <div className="work-history-quote">
+            <h1 className="light">Growth Mindset. <span className="strong">Forward Moving.</span> Looking to
+              make an <em>impact</em> through technology.
+            </h1>
+          </div>
         </div>
       </div>
     <div class="resume-container">

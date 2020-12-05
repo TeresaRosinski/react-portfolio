@@ -8,19 +8,26 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
- // background-color:#E63946;
   color: #f1f1f1;
 }
-.work-history-picture-container {
-  width: 30%;
-  margin-bottom: 0;
-  margin-left:10%;
-  margin-bottom: 6%;
+.work-history-quote-container {
+  margin-top:0;
+  width: 100%;
+  height: 80vh;
+  background-color: #eff3fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
 }
 .work-history-quote{
-  width: 50%;
-  background-color:#E63946;
+  display: flex;
+  width: 80%;
+  height:70%;
+  background-color:#ed6d77;
   padding: 5%;
+  align-items: center;
 }
 
 .resume-container{
