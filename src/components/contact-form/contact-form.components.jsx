@@ -25,7 +25,7 @@ export default function ContactUs() {
       <div className="form-group">
         <label>To:</label>
         <input
-        className="form-control" placeholder="trosinski89@gmail.com" />
+        className="form-control" placeholder="Teresa Rosinski trosinski89@gmail.com" />
       </div>
       <div className="form-group">
         <label>Your Name</label>
@@ -39,7 +39,7 @@ export default function ContactUs() {
         <label>Your Email</label>
         <input type="email" name="user_email" className="form-control" />
       </div>
-      <input type="submit" value="Send" className="contact-us-button"/>
+      <input type="submit" value="SEND" className="contact-us-button"/>
     </form>
     </div>
   );

@@ -20,17 +20,23 @@
 
 
 /*For  small tablets to large tablets up to 767-1023 */
-@media only screen and (max-width: 1048px){
+@media only screen and (max-width: 1075px){
   body{font-size: 18px; }
   #hamburger{
     display:none;
+  }
+  /*Work-Experience */
+
+  .title {
+    font-size: 200%;
   }
  
 }
 
 
+
 /*For  small phones and tablets up to 481- 767 */
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 943px){
   body{font-size: 16px}
   /*nav bar */
   .main-nav{
@@ -76,6 +82,9 @@
     margin-top: 3% !important;
     margin-bottom: 2.5% !important;
   }
+  .projects-title{
+    font-size: 350%;
+  }
   .button-container{
     margin-top: 0 !important;
     font-size: 10px;
@@ -87,6 +96,61 @@
     border: solid white 1px !important;
   }
 
+  /*Work-Experience */
+  .title {
+    font-size: 175%;
+  }
+
+}
+
+@media only screen and (max-width: 745px){
+  .resume-container{
+    flex-direction: column !important;
+    margin-right: 0 !important;
+  }
+  .work-experience-header {
+    width: 100% !important;
+    text-align: center !important;
+    padding-bottom: 10% !important; 
+    font-size: 175%;
+  }
+  .title{
+    font-size: 250%;
+  }
+  .work-experience-examples{
+    padding-top: 5% !important;
+    padding-left: 20% !important;
+    padding-right: 15% !important ;
+    width: 100% !important;
+    text-align: left;
+  }
+
+  .education-container{
+    flex-direction: column-reverse !important;
+    margin-right: 0 !important;
+  }
+  .education-header {
+    width: 100% !important;
+    text-align: center !important;
+    padding-bottom: 10% !important; 
+    font-size: 175%;
+  }
+  .title{
+    font-size: 250%;
+  }
+  .education-examples{
+    padding-top: 5% !important;
+    padding-left: 20% !important;
+    padding-right: 15% !important ;
+    width: 100% !important;
+    text-align: left;
+  }
+
+  .contact-header {
+    background-color: #1d3557 !important;
+    color: white !important;
+    padding: 10%;
+  }
 }
 
 
@@ -108,6 +172,8 @@
     cursor: pointer;
     float:right;
   }
+
+ 
 
 
 }

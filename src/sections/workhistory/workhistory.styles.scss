@@ -14,15 +14,15 @@
 .work-history-picture-container {
   width: 30%;
   margin-bottom: 0;
-}
-.work-history-picture {
-  //height: 50vh;
+  margin-left:10%;
+  margin-bottom: 6%;
 }
 .work-history-quote{
   width: 50%;
   background-color:#E63946;
   padding: 5%;
 }
+
 .resume-container{
   margin: 0;
   display: flex;
@@ -31,14 +31,14 @@
   flex-wrap: wrap;
 }
 .work-experience-header {
-  display:flex;
   width: 25%;
   text-align: left;
-  padding-left:2%;
+  padding:2%;
   background-color: #1d3557;
   color: white;
   padding-top: 10%;
 }
+
 
 .work-experience-examples{
   padding-top: 10%;

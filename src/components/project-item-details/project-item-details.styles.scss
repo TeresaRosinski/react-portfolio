@@ -1,12 +1,33 @@
 
-.more-details{
-  margin-top:5px;
-  text-align: left;
-  padding-bottom:3%;
-  background-color: #f1faee;
+.project-details-container{
+  background-color: #2c5083;
 }
-a{
-  color:#f1faee;
+
+.more-details{
+  color: white;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right:5%;
+  text-align: left;
+  padding-bottom:5%;
+}
+.strong{
+  font-weight:500;
+  padding-top:3%;
+}
+.light{
+  font-weight:300;
+  margin:1%;
+}
+
+.github-link{
+  color: white;
+
+}
+.github-link:hover{
+  color: white;
+  cursor: pointer;
+  font-size: 105%;
 }
 
 ul.no-bullets {

@@ -1,5 +1,18 @@
 .contact-us-button{
-  background: none;
-  color: #1d3557;
+  background-color: white;
+  font-weight:500;
+  border: none; 
+  font-size: 18px;
+  margin-top: 3%;
+}
+
+.contact-us-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+.contact-form{
+  font-weight: 300;
 }
 

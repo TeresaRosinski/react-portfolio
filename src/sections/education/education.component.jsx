@@ -24,7 +24,7 @@ function Education () {
         <p><strong>Example Courses:</strong> International Conflict Management, Global History from a Global Perspective, International Management, Accounting, International Economics, Micro Economics</p>
       </div>
       <div class="education-header">
-        <h1 className="light">EDUCATION</h1>
+        <h1 className="light title">EDUCATION</h1>
       </div>
     </div>
   );
