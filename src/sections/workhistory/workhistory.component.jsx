@@ -10,7 +10,7 @@ function WorkHistory () {
       <div className="work-history-intro">
         <div className="work-history-quote-container">
           <div className="work-history-quote">
-            <h1 className="light">Growth Mindset. <span className="strong">Forward Moving.</span> Looking to
+            <h1 className="light title">Growth Mindset. <span className="strong">Forward Moving.</span> Looking to
               make an <em>impact</em> through technology.
             </h1>
           </div>

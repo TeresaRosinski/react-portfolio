@@ -135,9 +135,6 @@
     padding-bottom: 10% !important; 
     font-size: 175%;
   }
-  .title{
-    font-size: 250%;
-  }
   .education-examples{
     padding-top: 5% !important;
     padding-left: 20% !important;
@@ -173,7 +170,28 @@
     float:right;
   }
 
- 
+}
+@media only screen and (max-width: 421px){
+  body{font-size: 14px}
+  #toggle:checked + .main-nav{
+    padding-bottom: 1px;
+  }
+  .title{
+    font-size: 200%;
+  }
+  .header-text{
+    margin-top: 15% !important;
+    margin-bottom: 2.5% !important;
+  }
+}
+
+@media only screen and (max-width: 340px){
+  .project-image{
+    height:18vh !important;
+  }
+  .title{
+    font-size: 175% !important;
+  }
 
 
 }
