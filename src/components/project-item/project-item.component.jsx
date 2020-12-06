@@ -10,9 +10,9 @@ function ProjectItem (props) {
   const ButtonText = showDetails ? "HIDE DETAILS" : "SHOW DETAILS";
 
     return (
-      <div className= "project-item" onClick={onClick} >
-        <img className="project-image" src={props.projectImageUrl} alt="picture of project" />
-        <div className="project-description">
+      <div className= "project-item" >
+        <img className="project-image" src={props.projectImageUrl} alt="picture of project" onClick={onClick}  />
+        <div className="project-description" onClick={onClick}  >
           <h4><strong>{props.projectName}</strong></h4> <h6> {props.projectLanguage}</h6>
           <button className="more-details-button" onClick={onClick}>{ButtonText}</button>
         </div>

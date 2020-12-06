@@ -12,7 +12,7 @@ function ProjectItemDetails (props) {
         <ul className="no-bullets">
           {props.projectTechnologies.map(tech => <p className="light">{tech}</p>)}  
         </ul>
-        <p className="github-link strong" href={props.githubRepositoryUrl} target="_blank">VIEW GITHUB REPOSITORY</p>
+        <a className="github-link strong" href={props.githubRepositoryUrl} target="_blank">VIEW GITHUB REPOSITORY</a>
       </div>
     </div>
 );
