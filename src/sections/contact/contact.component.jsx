@@ -11,6 +11,7 @@ function Contact () {
     <div className="contact-container" id="contact-section">
         <div className="contact-header">
           <h1 className="light">CONTACT TERESA</h1>
+          <p>Email Teresa using the interface below.</p>
         </div>
         <div className="contact-form">
           <ContactUs />

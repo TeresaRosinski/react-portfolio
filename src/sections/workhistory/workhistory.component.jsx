@@ -10,8 +10,8 @@ function WorkHistory () {
       <div className="work-history-intro">
         <div className="work-history-quote-container">
           <div className="work-history-quote">
-            <h1 className="light title">Growth Mindset. <span className="strong">Forward Moving.</span> Looking to
-              make an <em>impact</em> through technology.
+            <h1 className="light title"><span className="strong">Growth Mindset.</span> FORWARD MOVING.Looking to
+              make an <em className = "strong">IMPACT</em> through technology.
             </h1>
           </div>
         </div>
@@ -21,6 +21,17 @@ function WorkHistory () {
         <h1 className="light title">WORK EXPERIENCE</h1>
       </div>
       <div class="work-experience-examples">
+      <h5><bold>5-Week Software Development Internship </bold></h5>
+        <h6><em>JetClosing: Online: 10/2020 – 11/2020</em></h6>
+        <p>
+          Collaborated with and learned from Software Engineers on the Client Team to add new features to an internal ticketing tool. 
+        </p>
+        <p>
+          Worked with: React, Graphql, Typescript
+        </p>
+        <p>
+          Participated in daily stand-ups and code-reviews.
+        </p>
         <h5><bold>Education and Development Intern </bold></h5>
         <h6><em>Centro: Chicago, IL - 01/2020 – 03/2020</em></h6>
         <p>

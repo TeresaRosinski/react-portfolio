@@ -19,16 +19,11 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="contact-form">
+    <div>
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <div className="form-group">
-        <label>To:</label>
-        <input
-        className="form-control" placeholder="Teresa Rosinski trosinski89@gmail.com" />
-      </div>
-      <div className="form-group">
-        <label>Your Name</label>
+        <label>Name</label>
         <input type="text" className="form-control" name="user_name" />
       </div>
       <div className="form-group">
@@ -36,7 +31,7 @@ export default function ContactUs() {
         <textarea name="message" className="form-control"/>
       </div>
       <div className="form-group">
-        <label>Your Email</label>
+        <label>Email :</label>
         <input type="email" name="user_email" className="form-control" />
       </div>
       <input type="submit" value="SEND" className="contact-us-button"/>

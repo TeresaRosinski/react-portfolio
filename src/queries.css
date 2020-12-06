@@ -35,8 +35,10 @@
 
 
 
+
+
 /*For  small phones and tablets up to 481- 767 */
-@media only screen and (max-width: 943px){
+@media only screen and (max-width: 1062px){
   body{font-size: 16px}
   /*nav bar */
   .main-nav{
@@ -66,21 +68,27 @@
   }
 
   /* header */
-  .wrapper {
-    display: flex;
+  .header-content {
     flex-direction: column;
   }
-  .wrapper img {
+  .header-content img {
     height: 100%;
     width: 100%;
   }
   .header-text-box{
     height: 60vh;
-    font-size: 16px !important;
+    text-align: center !important;
+    width: 100%;
   }
   .header-text{
-    margin-top: 3% !important;
+    margin-top: 10% !important;
     margin-bottom: 2.5% !important;
+  }
+  .smaller-text {
+    font-size: 50%;
+  }
+  .larger-text {
+    font-size: 150%;
   }
   .projects-title{
     font-size: 350%;
@@ -192,6 +200,5 @@
   .title{
     font-size: 175% !important;
   }
-
 
 }
